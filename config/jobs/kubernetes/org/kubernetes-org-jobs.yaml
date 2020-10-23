@@ -2,6 +2,7 @@ presubmits:
   kubernetes/org:
   - name: pull-org-test-all
     always_run: true
+    cluster: k8s-infra-prow-build
     decorate: true
     labels:
       preset-service-account: "true"
@@ -18,8 +19,12 @@ presubmits:
     annotations:
       testgrid-num-columns-recent: '30'
       testgrid-create-test-group: 'true'
+      testgrid-dashboards: sig-contribex-org
+      testgrid-tab-name: pull-org-test-all
+      testgrid-alert-email: kubernetes-github-managment-alerts@googlegroups.com
   - name: pull-org-verify-all
     always_run: true
+    cluster: k8s-infra-prow-build
     decorate: true
     labels:
       preset-service-account: "true"
@@ -32,3 +37,6 @@ presubmits:
     annotations:
       testgrid-num-columns-recent: '30'
       testgrid-create-test-group: 'true'
+      testgrid-dashboards: sig-contribex-org
+      testgrid-tab-name: pull-org-verify-all
+      testgrid-alert-email: kubernetes-github-managment-alerts@googlegroups.com
