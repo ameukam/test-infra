@@ -202,6 +202,7 @@ periodics:
     preset-dind-enabled: "true"
     preset-service-account: "true"
   name: ci-kubernetes-build-stable1
+  cluster: k8s-infra-prow-build
   rerun_auth_config:
     github_team_ids:
     - 2241179
@@ -216,7 +217,7 @@ periodics:
       - --
       - --allow-dup
       - --extra-version-markers=k8s-stable1
-      - --registry=gcr.io/kubernetes-ci-images
+      - --registry=gcr.io/k8s-staging-ci-images
       image: gcr.io/k8s-testimages/bootstrap:v20200924-7fcf543
       name: ""
       resources:
