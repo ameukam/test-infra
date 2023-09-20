@@ -31352,7 +31352,7 @@ periodics:
   cron: '1 2-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -31416,7 +31416,7 @@ periodics:
   cron: '3 4-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -31480,7 +31480,7 @@ periodics:
   cron: '45 6-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -31544,7 +31544,7 @@ periodics:
   cron: '31 0-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -31608,7 +31608,7 @@ periodics:
   cron: '2 1-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -31672,7 +31672,7 @@ periodics:
   cron: '3 6-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -31736,7 +31736,7 @@ periodics:
   cron: '41 0-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -31800,7 +31800,7 @@ periodics:
   cron: '27 2-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -31864,7 +31864,7 @@ periodics:
   cron: '33 4-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -31928,7 +31928,7 @@ periodics:
   cron: '52 5-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -31992,7 +31992,7 @@ periodics:
   cron: '25 4-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -32056,7 +32056,7 @@ periodics:
   cron: '31 2-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -32120,7 +32120,7 @@ periodics:
   cron: '53 0-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -32184,7 +32184,7 @@ periodics:
   cron: '43 6-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -32248,7 +32248,7 @@ periodics:
   cron: '22 7-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -32312,7 +32312,7 @@ periodics:
   cron: '36 6-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -32376,7 +32376,7 @@ periodics:
   cron: '46 0-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -32440,7 +32440,7 @@ periodics:
   cron: '32 2-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -32504,7 +32504,7 @@ periodics:
   cron: '34 4-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m
@@ -32568,7 +32568,7 @@ periodics:
   cron: '55 5-23/8 * * *'
   labels:
     preset-k8s-ssh: "true"
-  cluster: default
+  cluster: k8s-infra-prow-build
   decorate: true
   decoration_config:
     timeout: 90m

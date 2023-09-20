@@ -449,6 +449,7 @@ def generate_grid():
                         build_test(cloud="gce",
                                    runs_per_day=3,
                                    distro=distro,
+                                   build_cluster="k8s-infra-prow-build",
                                    extra_dashboards=['kops-grid'],
                                    k8s_version=k8s_version,
                                    kops_version=kops_version,
